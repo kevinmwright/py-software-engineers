@@ -1,5 +1,5 @@
 class SoftwareEngineer:
-    def __init__(self, name: str) -> None:        
+    def __init__(self, name: str) -> None:
         if not hasattr(self, "name"):
             self.name = name
         if not hasattr(self, "skills"):
