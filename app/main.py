@@ -1,8 +1,8 @@
 class SoftwareEngineer:
     def __init__(self, name: str) -> None:        
-        if not hasattr(self, 'name'):
+        if not hasattr(self, "name"):
             self.name = name
-        if not hasattr(self, 'skills'):
+        if not hasattr(self, "skills"):
             self.skills = []
 
     def learn_skill(self, skill: str) -> None:
